@@ -1,3 +1,10 @@
+/**
+ * Time complexity of this algorithm ;
+ * in worst case : O(n^2)
+ * in best casse : O(n)
+ * it is good to use this algorithm with small sized data
+ */
+
 public class InsertionSort {
     /**
      * this method sorts array in place
