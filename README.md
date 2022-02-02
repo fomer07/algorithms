@@ -5,3 +5,4 @@ Definition and explanation of algorithms provided within that java file.
 
 # List of algorithms
 1. Insertion sort
+2. Selection sort
