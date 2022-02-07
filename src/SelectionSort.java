@@ -11,7 +11,7 @@ public class SelectionSort {
      * @return arr - sorted array
      */
      @SuppressWarnings("UnusedReturnValue")
-     static int[] sort(int[] arr){
+     public static int[] sort(int[] arr){
         // outer loop for replace minimum to bigger
         // from first index to last index
         // also we use i to arr.length-2 because

@@ -11,7 +11,7 @@ public class InsertionSort {
      * @param arr unsorted array
      * @return arr sorted array
      */
-    static int[] sort(int[] arr){
+    public static int[] sort(int[] arr){
         // iterate array to sort all of them
         // we start with index 1 because
         // first element of array already sorted

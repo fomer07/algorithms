@@ -39,7 +39,7 @@ public class MergeSort {
      * @param middleIndex middle index
      * @param lastIndex last index
      */
-    static void merge(int[] arr,int beginIndex,int middleIndex,int lastIndex){
+    public static void merge(int[] arr,int beginIndex,int middleIndex,int lastIndex){
         // evaluate sub-arrays length
         int leftSize = middleIndex-beginIndex+1;
         int rightSize = lastIndex-middleIndex;
