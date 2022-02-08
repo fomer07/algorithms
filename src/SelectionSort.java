@@ -16,7 +16,7 @@ public class SelectionSort {
         // from first index to last index
         // also we use i to arr.length-2 because
         // the last remaining index already the biggest one
-        for (int i=0;i< arr.length-2;i++){
+        for (int i=0;i< arr.length-1;i++){
             // value of looked up index
             int key = arr[i];
             // we set to min value looked up index
@@ -26,11 +26,11 @@ public class SelectionSort {
             // inner loop for look remaining integers (right-hand side)
             // we equals iterator 'j' to 'i' because
             // left-hand side of array already sorted
-            for (int j = i; j< arr.length-2; j++){
+            for (int j = i; j< arr.length; j++){
                 // if there is lower value change it with our value
                 if (arr[j]<min){
                     min = arr[j];
-                    arr[j]=key;
+                    minIndex=j;
                 }
             }
             // we assign founded minimum value
