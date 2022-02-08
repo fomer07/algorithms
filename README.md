@@ -10,6 +10,7 @@ Definition and explanation of algorithms provided within that java file.
 3. Merge sort
 4. Binary search
 5. Bubble sort
+6. Horner's scheme
 
 
 
