@@ -23,6 +23,7 @@ public class SelectionSort {
             // in case of if it is min value in the remaining integers
             // after inner loop it will remain same
             int min = arr[i];
+            int minIndex=i;
             // inner loop for look remaining integers (right-hand side)
             // we equals iterator 'j' to 'i' because
             // left-hand side of array already sorted
@@ -34,6 +35,7 @@ public class SelectionSort {
                 }
             }
             // we assign founded minimum value
+            arr[minIndex]=key;
             arr[i]=min;
         }
         return arr;
