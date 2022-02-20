@@ -11,6 +11,7 @@ Definition and explanation of algorithms provided within that java file.
 4. Binary search
 5. Bubble sort
 6. Horner's scheme
+7. Maximum summed subarray(recursive)
 
 
 
