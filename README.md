@@ -1,5 +1,6 @@
 # Algorithms
 ### **Algorithms from Introduction to Algorithms, 3rd Edition (Mit Press) by Thomas H Cormen (Author), Charles E Leiserson (Author), Ronald L Rivest (Author), Clifford Stein (Author)**
+**ISBN-10 9780262033848**
 This repository includes Java implementations of most common used algorithms in software programs.
 Each java file represents one algorithm with name of it. 
 Definition and explanation of algorithms provided within that java file.
